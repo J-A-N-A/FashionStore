@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Navi from "./components/A-Navbar.top";
+import Body from "./components/B-Body.topmid";
+import Body2 from "./components/C.Body.mid";
+import Foo from "./components/Foo";
+import SpeedDialbasic from "./components/SpeedDial";
+import './App.css'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navi />
+      <Body />  
+      <Body2 />
+      <Foo />
+
+    </> 
   );
 }
 
